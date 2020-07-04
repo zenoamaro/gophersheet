@@ -1,0 +1,6 @@
+node_modules
+credentials.json
+gopherhole.json
+.env
+*.log
+*.tmp

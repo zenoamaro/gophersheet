@@ -1,0 +1,27 @@
+{
+  "name": "gophersheet",
+  "version": "0.0.1",
+  "author": "zenoamaro <zenoamaro@gmail.com>",
+  "description": "Serve your Gopherhole from Google Sheets",
+  "keywords": [
+    "gopher",
+    "gopherhole",
+    "gopherspace",
+    "phlog",
+    "spreadsheet"
+  ],
+  "license": "MIT",
+  "bin": "src/index.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src",
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "google-spreadsheet": "^3.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
